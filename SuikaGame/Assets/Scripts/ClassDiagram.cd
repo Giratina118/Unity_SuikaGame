@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="점수를 출력하는 &#xD;&#xA;TEXT 오브젝트들">
+    <Position X="8.521" Y="2.326" Height="0.66" Width="1.499" />
+  </Comment>
+  <Comment CommentText="Observer 패턴">
+    <Position X="6.528" Y="0.639" Height="0.396" Width="1.381" />
+  </Comment>
+  <Comment CommentText="State 패턴">
+    <Position X="0.514" Y="0.632" Height="0.396" Width="1.381" />
+  </Comment>
+  <Comment CommentText="Command 패턴">
+    <Position X="10.535" Y="4.125" Height="0.396" Width="1.381" />
+  </Comment>
+  <Comment CommentText="Singleton 패턴">
+    <Position X="7.757" Y="4.208" Height="0.396" Width="1.381" />
+  </Comment>
+  <Comment CommentText="Mediator 패턴">
+    <Position X="0.528" Y="4.632" Height="0.396" Width="1.381" />
+  </Comment>
+  <Class Name="CommandManager" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEIAAAACAAAGAAAAAAQAAAQAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CommandManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FruitFusionManager" Collapsed="true">
+    <Position X="6.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACIAAAgAAAAAgAAAAAAgAABAAQAgAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\FruitFusionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FruitInfomation" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FruitInfomation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FruitsInfoManager" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FruitsInfoManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverMediator" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAgIA=</HashCode>
+      <FileName>Assets\Scripts\GameOverMediator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameOverTimer" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACBAAQgAAAICAAAEAFAAAAhAAAAAAAAAQAE=</HashCode>
+      <FileName>Assets\Scripts\GameOverTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameSceneButtonManager" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameSceneButtonManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameWindowFixed" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\GameWindowFixed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RestartCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\InterfaceCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExitCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\InterfaceCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RankResetCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\InterfaceCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ToTitleCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\InterfaceCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MousePosFruit" Collapsed="true">
+    <Position X="3" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAgACAAAAAAAQAAAAAAAAAAEAgAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MousePosFruit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RandFruitsCreate" Collapsed="true">
+    <Position X="4.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAIACACAAoAAAAAAAAEIAAAAAgAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\RandFruitsCreate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LowScoreState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\RandFruitsCreate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MiddleScoreState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\RandFruitsCreate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HighScoreState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\RandFruitsCreate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="FruitCreationStateManager" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAABAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\RandFruitsCreate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RankingBook" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\RankingBook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreManager" Collapsed="true">
+    <Position X="8.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YEEIAAAAAqAiAAIAAAAIAAAAQQAAAALAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ScoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreSubject" Collapsed="true">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAgQAAAKAAAAAAAAQAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Scripts\ScoreSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TitleSceneButtonManager" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TitleSceneButtonManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="InterfaceCommand" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\InterfaceCommand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IFruitCreationState" Collapsed="true">
+    <Position X="2.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\RandFruitsCreate.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
